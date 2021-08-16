@@ -6,23 +6,106 @@
         <title>Scott Keller's Webpage</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <h1></h1>
         <div id="mainContainer">
             <section class="sectionBox aboutMe">
-                
+                <div id='headIntroContainer'>
+                    <div id="picBox"><img src='./reSizeScotty.png'></div>
+                </div>
+                <div id='signatureLogo'>
+                    <p>Scott</p>
+                    <p>Keller</p>
+                </div>
+                <div id='parallelogram'>
+                    <div class='aboutMeContainer'>
+                        <h2 class='aboutMeTitle'>About Me</h2>
+                        <div>
+                            <div id='outsideShape'></div>
+                            <p id='aboutMeBox'>
+                                Scott is an aspiring leader, a doctoral candidate in the field of Leadership Studies from the University of San Diego, a charismatic and devoted member of the Deaf community at large. Scott has been in numerous leadership roles ever since his undergraduate years at Gallaudet University, the only university for the Deaf in the world. Positions include, but are not limited to;
+                            </p> 
+                        </div>
+                        <div id='myJobs'>
+                            <div class='positionsBox'>
+                                <h3>Formerly</h3>
+                                <ul id='positionsList'>
+                                    <li>President of the Campus Student Media</li>
+                                    <li>Special Student Assistant to the Dean's office</li>
+                                    <li>President of the Alpha Sigma Pi Fraternity</li>
+                                </ul> 
+                            </div>
+                            <div class='positionsBox'>
+                                <h3>Currently</h3>
+                                <ul id='positionsList'>
+                                    <li>Program Manager of Daytime Recovery Center at San Diego</li>
+                                    <li>Disability Rights California Board of Directors</li>
+                                    <li>The Alpha Sigma Pi INC Board of Directors</li>
+                                </ul> 
+                            </div>
+                        </div>
+                        <p>   
+                            Currently, Scott devotes the majority of his day at the local non-profit where he is the Director of the Advocacy department. After completing his degree requirements, Scott aims to expand his leadership experiences, by honing in his skills as a Leadership Coach, and ultimately, become the leader of his community. As a leader, Scott understands the nooks and crannies that come with the position, and is committed to creating a culture of healthy and collaborative communities. 
+                        </p>
+                        <h2 class='connectMeTitle'>Connect with Me</h2>
+                        <div id='iconsContainer'>
+                            <div class='imgContainer'>
+                                <a href='https://www.linkedin.com/in/kellerscottj/'><img src='./5279114_linkedin_network_social network_linkedin logo_icon.svg'></a>
+                            </div>
+                            <div class='imgContainer'>
+                                <a href='https://www.instagram.com/kellerscottj/'><img src='./5279112_camera_instagram_social media_instagram logo_icon.svg'></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="sectionBox services">
-
+                <h2>Services</h2>
+                <p>As a doctoral candidate, and pending certification, Scott is not allowed to charge for his services. However, the following packages are for your consideration, please take a few moments to look through the following services and let him know if you have any questions through the contact us section.</p>
+                <ul class='tabs'>
+                    <li>
+                        <input type='radio' name='tabs' id='tab1' checked />
+                        <label for='tab1' role='tab' aria-selected='true' aria-controls='panel1' tabindex='0'>1 on 1</label>
+                        <div id='tab-content1' class="tab-content" role='tabpanel' aria-labelledby='title of service' aria-hidden='false'>
+                            <p>
+                                you will receive coaching on a biweekly basis, with sessions ranging from 30 minutes to 90 minutes in length. The usual amount of appointments may range from six months to one full year. 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type='radio' name='tabs' id='tab2' />
+                        <label for='tab2' role='tab' aria-selected='true' aria-controls='panel2' tabindex='0'>Group</label>
+                        <div id='tab-content2' class="tab-content" role='tabpanel' aria-labelledby='title of service' aria-hidden='true'>
+                            <p>
+                                Leadership coaching can be done in small groups of three to seven people, Scott will facilitate and guide your group into the process of figuring out the best course of action your group can take in situations. This is ideal for people who find their groups in a minor conflict, a desire for a breakthrough, or simply to increase productivity. Groups like this are often found in your workplace, your gaming/hobby meet-ups, and an ad-hoc volunteering workforce. Groups may choose to meet once, or make it a monthly thing for a maximum of six months. 
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type='radio' name='tabs' id='tab3' />
+                        <label for='tab3' role='tab' aria-selected='true' aria-controls='panel3' tabindex='0'>Consulting</label>
+                        <div id='tab-content3' class="tab-content" role='tabpanel' aria-labelledby='title of service' aria-hidden='true'>
+                            <p>
+                                This is a one to three session experience and the shortest of Scott's services. Consulting is done on an observation basis, and Scott will provide insight from the Leadership and coaching points of view. This form of consulting ranges from the executive level to one-on-one basis, and is applicable on all types of everyday life, whether it be an organization or an individual.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </section>
             <section class="sectionBox contactMe">
                 <form>
                     <h2>Contact Me</h2>
-                    <input class="itemInput" type="text" placeholder="Your name?">
-                    <input class="itemInput" type="text" placeholder="Your email?">
-                    <submit>Submit</submit>
+                    <label for='fullName'>Full Name: </label><br>
+                    <input name='fullName' class="itemInput" type="text" placeholder="Name"><br>
+                    <label for='emailAddress'>Email Address: </label><br>
+                    <input name='emailAddress' class="itemInput" type="text" placeholder="Email"><br>
+                    <button type='submit'>Submit</button>
                 </form>
             </section>
         </div>
