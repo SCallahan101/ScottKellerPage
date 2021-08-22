@@ -16,14 +16,14 @@
         <h1></h1>
         <div id="mainContainer">
             <section class="sectionBox aboutMe">
-                <div id='headIntroContainer'>
-                    <div id="picBox"><img src='./reSizeScotty.png'></div>
-                </div>
                 <div id='signatureLogo'>
                     <p>Scott</p>
                     <p>Keller</p>
                 </div>
                 <div id='parallelogram'>
+                    <div id='headIntroContainer'>
+                        <div id="picBox"><img src='./reSizeScotty.png'></div>
+                    </div>
                     <div class='aboutMeContainer'>
                         <h2 class='aboutMeTitle'>About Me</h2>
                         <div>
@@ -50,6 +50,7 @@
                                 </ul> 
                             </div>
                         </div>
+                        <div class='trapezShape'></div>
                         <p>   
                             Currently, Scott devotes the majority of his day at the local non-profit where he is the Director of the Advocacy department. After completing his degree requirements, Scott aims to expand his leadership experiences, by honing in his skills as a Leadership Coach, and ultimately, become the leader of his community. As a leader, Scott understands the nooks and crannies that come with the position, and is committed to creating a culture of healthy and collaborative communities. 
                         </p>
@@ -102,9 +103,13 @@
                 <form>
                     <h2>Contact Me</h2>
                     <label for='fullName'>Full Name: </label><br>
-                    <input name='fullName' class="itemInput" type="text" placeholder="Name"><br>
+                    <input name='fullName' class="itemInput" type="text" placeholder="Name" required><br>
                     <label for='emailAddress'>Email Address: </label><br>
-                    <input name='emailAddress' class="itemInput" type="text" placeholder="Email"><br>
+                    <input name='emailAddress' class="itemInput" type="text" placeholder="Email" required><br>
+                    <label for='subject'>Subject: </label><br>
+                    <input name='subject' class="itemInput" type="text" placeholder="Subject" required><br>
+                    <label for='message'>Message: </label><br>
+                    <textarea name='message' class="itemInput"  placeholder="Question / Request" required></textarea><br>
                     <button type='submit'>Submit</button>
                 </form>
             </section>
