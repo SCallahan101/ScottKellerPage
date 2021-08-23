@@ -100,16 +100,24 @@
                 </ul>
             </section>
             <section class="sectionBox contactMe">
-                <form>
+                <form action="https://formspree.io/f/{form_id}" method="post">
                     <h2>Contact Me</h2>
-                    <label for='fullName'>Full Name: </label><br>
-                    <input name='fullName' class="itemInput" type="text" placeholder="Name" required><br>
-                    <label for='emailAddress'>Email Address: </label><br>
-                    <input name='emailAddress' class="itemInput" type="text" placeholder="Email" required><br>
-                    <label for='subject'>Subject: </label><br>
-                    <input name='subject' class="itemInput" type="text" placeholder="Subject" required><br>
-                    <label for='message'>Message: </label><br>
-                    <textarea name='message' class="itemInput"  placeholder="Question / Request" required></textarea><br>
+                    <label for='fullName'>Full Name: <br>
+                        <input name='fullName' class="itemInput" type="text" placeholder="Name" required>
+                    </label><br>
+                    <!-- <input name='fullName' class="itemInput" type="text" placeholder="Name" required><br> -->
+                    <label for='emailAddress'>Email Address: <br>
+                        <input name='emailAddress' class="itemInput" type="text" placeholder="Email" required>
+                    </label><br>
+                    <!-- <input name='emailAddress' class="itemInput" type="text" placeholder="Email" required><br> -->
+                    <label for='subject'>Subject: <br>
+                        <input name='subject' class="itemInput" type="text" placeholder="Subject" required>
+                    </label><br>
+                    <!-- <input name='subject' class="itemInput" type="text" placeholder="Subject" required><br> -->
+                    <label for='message'>Message: <br>
+                        <textarea name='message' class="itemInput"  placeholder="Question / Request" required></textarea>
+                    </label><br>
+                    <!-- <textarea name='message' class="itemInput"  placeholder="Question / Request" required></textarea><br> -->
                     <button type='submit'>Submit</button>
                 </form>
             </section>

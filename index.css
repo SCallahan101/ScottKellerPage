@@ -429,5 +429,9 @@ form button{
     font-size: 1.3vw;
     transition: font-size 2s ease;
   }
+  .services {
+    height: 65vh;
+    transition: height 2s ease;
+}
 }
 
