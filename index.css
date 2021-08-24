@@ -48,7 +48,7 @@ section{
   /* border: 1px solid blue; */
   display: flex;
   font-size: 1vw;
-  height: 130px;
+  height: 160px;
   background: white;
   box-shadow: 10px 10px #f26850;
   flex-direction: column;
@@ -328,6 +328,7 @@ form button{
   }
   .positionsBox ul{
     font-size: 1.7vw;
+    height: 140px;
   }
   form{
     width: 80%;
@@ -368,7 +369,7 @@ form button{
     width: 49%;
   }
   .positionsBox ul{
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
   .services p:nth-child(2) {
     font-size: 1.8vw;
@@ -414,6 +415,9 @@ form button{
   .services {
     height: 59vh;
     transition: height 2s ease;
+}
+.positionsBox ul {
+  font-size: 1vw;
 }
 }
 
