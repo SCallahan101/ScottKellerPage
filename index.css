@@ -359,8 +359,6 @@ form button{
     padding: 0;
 }
 
-@media only screen and (min-width: 600px) {}
-@media only screen and (min-width: 600px) {}
 @media only screen and (min-width: 768px) {
   #parallelogram{
     transform: skew(6deg);
