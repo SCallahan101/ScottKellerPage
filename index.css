@@ -12,20 +12,9 @@ h1, h2, h3{
   font-size: 15vw;
   height: 152px;
 }
-#signatureLogo p:nth-child(1){
-  position: absolute;
-  left: 16vw;
-}
-#signatureLogo p:nth-child(2){
-  position: absolute;
-  right: 16vw;
-  top: 19vh;
-}
 #signatureLogo{
-  margin-top: -40px;
-  position: relative;
-  height: 280px;
-  margin-bottom: 8vh;
+  text-align: center;
+  margin-bottom: 10vh;
 }
 section{
     /* border: 1px solid red; */
@@ -317,9 +306,6 @@ form button{
   .aboutMeContainer{
     transform: skew(-6deg);
   }
-  #signatureLogo{
-    margin-bottom: 9vh;
-  }
   #myJobs{
     flex-direction: column;
   }
@@ -343,15 +329,8 @@ form button{
   #signatureLogo p {
     font-size: 12vw;
   }
-  #signatureLogo p:nth-child(1) {
-    left: 23vw;
-  }
-  #signatureLogo p:nth-child(2) {
-    right: 23vw;
-    top: 20vh;
-  }
   #signatureLogo{
-    margin-bottom: 14vh;
+    margin-left: 10rem;
   }
   #headIntroContainer{
     top: -115px;
