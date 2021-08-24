@@ -168,7 +168,7 @@ h2{
 }
 
 .services{
-    height: 88vh;
+  margin-bottom: 65vh;
 }
 #connectMeBox{
   margin: 0 auto;
@@ -412,12 +412,8 @@ form button{
     font-size: 1.3vw;
     transition: font-size 2s ease;
   }
-  .services {
-    height: 59vh;
-    transition: height 2s ease;
-}
-.positionsBox ul {
-  font-size: 1vw;
-}
+  .positionsBox ul {
+    font-size: 1vw;
+  }
 }
 
