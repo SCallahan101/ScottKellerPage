@@ -14,7 +14,7 @@ h1, h2, h3{
 }
 #signatureLogo{
   text-align: center;
-  margin-bottom: 10vh;
+  /* margin-bottom: 10vh; */
 }
 section{
     /* border: 1px solid red; */
@@ -157,7 +157,7 @@ h2{
 }
 
 .services{
-  margin-bottom: 65vh;
+  margin-bottom: 50vh;
 }
 #connectMeBox{
   margin: 0 auto;
@@ -300,6 +300,9 @@ form button{
 }
 
 @media only screen and (min-width: 768px) {
+  #signatureLogo{
+    margin-bottom: 8vh;
+  }
   #parallelogram{
     transform: skew(6deg);
   }
@@ -330,7 +333,8 @@ form button{
     font-size: 12vw;
   }
   #signatureLogo{
-    margin-left: 10rem;
+    margin-bottom: 14vh;
+    margin-left: 17rem;
   }
   #headIntroContainer{
     top: -115px;
